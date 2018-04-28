@@ -1,0 +1,48 @@
+#container{
+	text-align: center;
+}
+
+/*Heads or Tails*/
+
+#wrapper{
+	display: flex;
+	flex-direction: row;
+}
+
+#heads{
+	position: absolute;
+	top: 100px;
+}
+
+#tails{
+	position: absolute;
+	top: 600px;
+}
+
+#middle{
+	position: absolute;
+	top: 350px;
+}
+
+#div-container{
+	height: 600px;
+	width: 100%;
+	border: solid;
+	border-color: black;
+}
+
+.div{
+	position: absolute;
+	height: 25px;
+	width: 25px;
+}
+
+/*Pick a Ball*/
+
+.ball{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	border-color: black;
+	background-color: black;
+}
